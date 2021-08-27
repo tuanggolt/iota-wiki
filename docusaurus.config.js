@@ -66,6 +66,10 @@ module.exports = {
           label: "Participate",
           to: "docs/participate/support-the-network/run-a-node",
         },
+        {
+          label: "Features",
+          to: "docs/features",
+        },
         { to: '/blog', label: 'Blog', position: 'right' },
       ],
 

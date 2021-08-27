@@ -1,14 +1,14 @@
 
-module.exports = 
-{   
+module.exports =
+{
     learn: [
         {
             type: 'category',
             label: 'About IOTA',
             collapsed: false,
             items: [
-                'learn/about-iota/an-introduction-to-iota', 
-                'learn/about-iota/data-transfer', 
+                'learn/about-iota/an-introduction-to-iota',
+                'learn/about-iota/data-transfer',
                 'learn/about-iota/value-transfer',
                 'learn/about-iota/why-is-iota-feeless',
                 'learn/about-iota/roadmap-to-decentralization',
@@ -74,9 +74,9 @@ module.exports =
           ],
         },
     ],
-    
+
     use: [
-        { 
+        {
             type: 'category',
             label: 'Use Cases',
             collapsed: false,
@@ -147,7 +147,7 @@ module.exports =
                 'use/utilities/visualizer',
                 'use/utilities/iota-ipfs',
             ],
-        }, 
+        },
     ],
 
     participate: [
@@ -162,7 +162,7 @@ module.exports =
                 'participate/support-the-network/run-a-node',
                 'participate/support-the-network/create-an-application',
             ],
-        },        
+        },
         {
             type: 'category',
             label: 'The Community',
@@ -174,7 +174,7 @@ module.exports =
                 'participate/the-community/stack-overflow',
                 'participate/the-community/social-media',
             ],
-        },        
+        },
         {
             type: 'category',
             label: 'Partnerships',
@@ -182,7 +182,7 @@ module.exports =
             items: [
                 'participate/partnerships/iota-partnerships',
             ],
-        },        
+        },
         {
             type: 'category',
             label: 'Funding',
@@ -191,7 +191,7 @@ module.exports =
                 'participate/funding/edf-funding',
                 'participate/funding/community-treasury',
             ],
-        }, 
+        },
     ],
 
 
@@ -206,7 +206,7 @@ module.exports =
                 'develop/getting-started/send-a-first-message',
                 'develop/getting-started/devnet',
             ],
-        },        
+        },
         {
             type: 'category',
             label: 'Fundamentals',
@@ -218,7 +218,7 @@ module.exports =
                 'develop/fundamentals/utxo',
                 'develop/fundamentals/dapps',
             ],
-        },        
+        },
         {
             type: 'category',
             label: 'Exchange Integration',
@@ -226,7 +226,7 @@ module.exports =
             items: [
                 'develop/exchange-integration/exchange-integration-guide',
             ],
-        },        
+        },
         {
             type: 'category',
             label: 'Tutorials',
@@ -236,5 +236,8 @@ module.exports =
                 'develop/tutorials/youtube',
             ],
         },
-    ],   
+    ],
+    features: [
+        'features'
+    ],
 };
