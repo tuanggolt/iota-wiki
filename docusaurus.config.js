@@ -411,6 +411,18 @@ module.exports = {
   ],
   plugins: [
     [
+      '@docusaurus/plugin-client-redirects',
+      {
+        createRedirects: function (existingPath) {
+          if (
+            existingPath === '/learn/wallets/firefly/faq-and-troubleshooting'
+          ) {
+            return ['/learn/wallets/firefly-wallet/#firefly-faq']; // string | string[]
+          }
+        },
+      },
+    ],
+    [
       '@jlvandenhout/docusaurus-plugin-docs-editor',
       {
         docs: {
