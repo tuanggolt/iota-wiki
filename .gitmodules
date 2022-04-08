@@ -6,3 +6,7 @@
 	path = content/build/chronicle.rs/production
 	url = https://github.com/dr-electron/chronicle.rs
 	branch = docs/new-build-system
+[submodule "content/build/chrysalis-docs/production"]
+	path = content/build/chrysalis-docs/production
+	url = https://github.com/dr-electron/chrysalis-docs
+	branch = docs/new-build-system
