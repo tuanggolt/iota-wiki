@@ -10,3 +10,7 @@
 	path = content/build/chrysalis-docs/production
 	url = https://github.com/dr-electron/chrysalis-docs
 	branch = docs/new-build-system
+[submodule "content/build/goshimmer/production"]
+	path = content/build/goshimmer/production
+	url = https://github.com/dr-electron/goshimmer
+	branch = docs/new-build-system

@@ -2,10 +2,6 @@
   "configFolder": ".github/workflows/",
   "content": [
     {
-      "repo": "https://github.com/iotaledger/goshimmer",
-      "staticPath": "./documentation/static"
-    },
-    {
       "repo": "https://github.com/iotaledger/blueprints",
       "staticPath": "./static"
     },
