@@ -1,0 +1,4 @@
+[submodule "content/build/bee/production"]
+	path = content/build/bee/production
+	url = https://github.com/dr-electron/bee
+	branch = docs/new-build-system
