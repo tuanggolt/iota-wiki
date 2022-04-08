@@ -14,3 +14,7 @@
 	path = content/build/goshimmer/production
 	url = https://github.com/dr-electron/goshimmer
 	branch = docs/new-build-system
+[submodule "content/build/hornet/production"]
+	path = content/build/hornet/production
+	url = https://github.com/dr-electron/hornet
+	branch = docs/new-build-system
