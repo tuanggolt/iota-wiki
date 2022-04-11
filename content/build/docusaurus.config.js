@@ -6,6 +6,7 @@ const chrysalis_docs = require('./chrysalis-docs/docusaurus.config');
 const goshimmer = require('./goshimmer/docusaurus.config');
 const hornet = require('./hornet/docusaurus.config');
 const identity = require('./identity.rs/docusaurus.config');
+const iota_rs = require('./iota.rs/docusaurus.config');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
@@ -19,7 +20,8 @@ module.exports = {
         ...chrysalis_docs.plugins,
         ...goshimmer.plugins,
         ...hornet.plugins,
-        ...identity.plugins
+        ...identity.plugins,
+        ...iota_rs.plugins
     ],
     staticDirectories: [
         ...bee.staticDirectories,
@@ -27,6 +29,7 @@ module.exports = {
         ...chrysalis_docs.staticDirectories,
         ...goshimmer.staticDirectories,
         ...hornet.staticDirectories,
-        ...identity.staticDirectories
+        ...identity.staticDirectories,
+        ...iota_rs.staticDirectories
     ],
 };

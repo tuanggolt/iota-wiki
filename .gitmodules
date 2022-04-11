@@ -22,3 +22,7 @@
 	path = content/build/identity.rs/production
 	url = https://github.com/dr-electron/identity.rs
 	branch = docs/new-build-system
+[submodule "content/build/iota.rs/production"]
+	path = content/build/iota.rs/production
+	url = https://github.com/dr-electron/iota.rs
+	branch = docs/new-build-system
