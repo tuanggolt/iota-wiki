@@ -26,10 +26,6 @@
       "staticPath": "./static"
     },
     {
-      "repo": "https://github.com/iotaledger/streams",
-      "staticPath": "./documentation/static"
-    },
-    {
       "repo": "https://github.com/iotaledger/integration-services",
       "staticPath": "./documentation/static"
     },

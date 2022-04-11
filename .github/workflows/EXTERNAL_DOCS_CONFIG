@@ -59,17 +59,6 @@
     [
       "@docusaurus/plugin-content-docs",
       {
-        id: "streams",
-        path: "external/streams/documentation/docs",
-        routeBasePath: "streams",
-        sidebarPath: require.resolve("./external/streams/documentation/sidebars.js"),
-        editUrl: 'https://github.com/iotaledger/streams/edit/develop',
-        breadcrumbs: false,
-      }
-    ],
-    [
-      "@docusaurus/plugin-content-docs",
-      {
         id: "blueprints",
         path: "external/blueprints/",
         routeBasePath: "blueprints",

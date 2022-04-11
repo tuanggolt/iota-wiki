@@ -26,3 +26,7 @@
 	path = content/build/iota.rs/production
 	url = https://github.com/dr-electron/iota.rs
 	branch = docs/new-build-system
+[submodule "content/build/streams/production"]
+	path = content/build/streams/production
+	url = https://github.com/dr-electron/streams
+	branch = docs/new-build-system
