@@ -18,3 +18,7 @@
 	path = content/build/hornet/production
 	url = https://github.com/dr-electron/hornet
 	branch = docs/new-build-system
+[submodule "content/build/identity.rs/production"]
+	path = content/build/identity.rs/production
+	url = https://github.com/dr-electron/identity.rs
+	branch = docs/new-build-system
