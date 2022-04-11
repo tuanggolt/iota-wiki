@@ -6,11 +6,6 @@
       "staticPath": "./static"
     },
     {
-      "repo": "https://github.com/iotaledger/wasp",
-      "checkoutParams": ["--branch develop"],
-      "staticPath": "./documentation/static"
-    },
-    {
       "repo": "https://github.com/iotaledger/IOTA-2.0-Research-Specifications"
     },
     {

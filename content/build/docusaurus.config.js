@@ -10,6 +10,7 @@ const iota_rs = require('./iota.rs/docusaurus.config');
 const streams = require('./streams/docusaurus.config');
 const stronghold = require('./stronghold.rs/docusaurus.config');
 const wallet = require('./wallet.rs/docusaurus.config');
+const wasp = require('./wasp/docusaurus.config');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
@@ -27,7 +28,8 @@ module.exports = {
         ...iota_rs.plugins,
         ...streams.plugins,
         ...stronghold.plugins,
-        ...wallet.plugins
+        ...wallet.plugins,
+        ...wasp.plugins
     ],
     staticDirectories: [
         ...bee.staticDirectories,
@@ -39,6 +41,7 @@ module.exports = {
         ...iota_rs.staticDirectories,
         ...streams.staticDirectories,
         ...stronghold.staticDirectories,
-        ...wallet.staticDirectories
+        ...wallet.staticDirectories,
+        ...wasp.staticDirectories
     ],
 };

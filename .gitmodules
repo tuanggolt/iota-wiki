@@ -38,3 +38,7 @@
 	path = content/build/wallet.rs/production
 	url = https://github.com/dr-electron/wallet.rs
 	branch = docs/new-build-system
+[submodule "content/build/wasp/production"]
+	path = content/build/wasp/production
+	url = https://github.com/dr-electron/wasp
+	branch = docs/new-build-system

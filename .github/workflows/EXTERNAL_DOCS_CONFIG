@@ -25,17 +25,6 @@
     [
       "@docusaurus/plugin-content-docs",
       {
-        id: "smart-contracts",
-        path: "external/wasp/documentation/docs",
-        routeBasePath: "smart-contracts",
-        sidebarPath: require.resolve("./external/wasp/documentation/sidebars.js"),
-        editUrl: 'https://github.com/iotaledger/wasp/edit/develop',
-        breadcrumbs: false,
-      }
-    ],
-    [
-      "@docusaurus/plugin-content-docs",
-      {
         id: "blueprints",
         path: "external/blueprints/",
         routeBasePath: "blueprints",
