@@ -30,3 +30,7 @@
 	path = content/build/streams/production
 	url = https://github.com/dr-electron/streams
 	branch = docs/new-build-system
+[submodule "content/build/stronghold.rs/production"]
+	path = content/build/stronghold.rs/production
+	url = https://github.com/dr-electron/stronghold.rs
+	branch = docs/new-build-system

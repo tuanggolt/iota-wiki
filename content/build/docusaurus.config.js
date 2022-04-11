@@ -8,6 +8,7 @@ const hornet = require('./hornet/docusaurus.config');
 const identity = require('./identity.rs/docusaurus.config');
 const iota_rs = require('./iota.rs/docusaurus.config');
 const streams = require('./streams/docusaurus.config');
+const stronghold = require('./stronghold.rs/docusaurus.config');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
@@ -23,7 +24,8 @@ module.exports = {
         ...hornet.plugins,
         ...identity.plugins,
         ...iota_rs.plugins,
-        ...streams.plugins
+        ...streams.plugins,
+        ...stronghold.plugins
     ],
     staticDirectories: [
         ...bee.staticDirectories,
@@ -33,6 +35,7 @@ module.exports = {
         ...hornet.staticDirectories,
         ...identity.staticDirectories,
         ...iota_rs.staticDirectories,
-        ...streams.staticDirectories
+        ...streams.staticDirectories,
+        ...stronghold.staticDirectories
     ],
 };
