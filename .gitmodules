@@ -2,3 +2,7 @@
 	path = content/build/bee/production
 	url = https://github.com/dr-electron/bee
 	branch = docs/new-build-system
+[submodule "content/build/chronicle.rs/production"]
+	path = content/build/chronicle.rs/production
+	url = https://github.com/dr-electron/chronicle.rs
+	branch = docs/new-build-system

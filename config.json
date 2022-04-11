@@ -48,10 +48,6 @@
       "staticPath": "./documentation/static"
     },
     {
-      "repo": "https://github.com/iotaledger/chronicle.rs",
-      "staticPath": "./documentation/static"
-    },
-    {
       "repo": "https://github.com/iotaledger/integration-services",
       "staticPath": "./documentation/static"
     },
