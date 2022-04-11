@@ -9,6 +9,7 @@ const identity = require('./identity.rs/docusaurus.config');
 const iota_rs = require('./iota.rs/docusaurus.config');
 const streams = require('./streams/docusaurus.config');
 const stronghold = require('./stronghold.rs/docusaurus.config');
+const wallet = require('./wallet.rs/docusaurus.config');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
@@ -25,7 +26,8 @@ module.exports = {
         ...identity.plugins,
         ...iota_rs.plugins,
         ...streams.plugins,
-        ...stronghold.plugins
+        ...stronghold.plugins,
+        ...wallet.plugins
     ],
     staticDirectories: [
         ...bee.staticDirectories,
@@ -36,6 +38,7 @@ module.exports = {
         ...identity.staticDirectories,
         ...iota_rs.staticDirectories,
         ...streams.staticDirectories,
-        ...stronghold.staticDirectories
+        ...stronghold.staticDirectories,
+        ...wallet.staticDirectories
     ],
 };

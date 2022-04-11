@@ -11,11 +11,6 @@
       "staticPath": "./documentation/static"
     },
     {
-      "repo": "https://github.com/iotaledger/wallet.rs",
-      "checkoutParams": ["--branch mainnet"],
-      "staticPath": "./documentation/static"
-    },
-    {
       "repo": "https://github.com/iotaledger/IOTA-2.0-Research-Specifications"
     },
     {
